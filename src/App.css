@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+body{
+    text-align: center !important;
+    background-color: #3b3f41 !important;
+    color: #323436 !important;
+    background-image: url("https://phonoteka.org/uploads/posts/2021-04/1619227664_5-phonoteka_org-p-fon-dlya-retsepta-5.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: "Brush Script MT",sans-serif;
+    font-style: italic;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+    padding: 10px;
+}
+.navLink{
+padding: 10px;
+}
+.recipe{
+    margin: 50px;
+    padding-right: 20%;
+    padding-left: 20%;
+    justify-content: space-around;
+ }
+
+.block-content{
+      justify-content: space-around !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.block-content-recipe-list{
+    display: grid;
+    justify-content: space-evenly;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit,320px);
+    padding-right: 20%;
+    padding-left: 20%;
+        margin-top: 5%;
+
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title{
+    padding: 10px;
+    font-size: 1.2em;
 }
+img{
+    border-radius: 3%;
+    border-color: #ba8b57;
+    width: 30rem;
+    height: 30rem;
 
-.App-link {
-  color: #61dafb;
 }
+.img-recipe-list{
+        border-radius: 3%;
+    border-color: #ba8b57;
+    width: 10rem;
+    height: 10rem;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
